@@ -58,7 +58,28 @@ section {
 }
 
 @media screen and (max-width: 700px) {
+    img {
+        width: 80px;
+    }
     #titre {
         margin: 30px;
+    }
+    #liseret {
+        display: none;
+    }
+    #contenu {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        width: auto;
+    }
+    section {
+        margin-right: 0;
+    }
+    #experience {
+        width: 100%;
+    }
+    #competence {
+        width: 100%;
     }
 }
