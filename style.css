@@ -6,11 +6,11 @@ body {
     font-size: 20px;
 }
 
-#conteneur {
+#container {
     display: flex;
 }
 
-#titre {
+#title {
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -37,12 +37,16 @@ h2 {
     font-family: 'Roboto Slab', serif;
 }
 
-#contenu {
+#content {
     display: flex;
 }
 
-#contenu ul {
+#content ul {
     padding-left: 10px;
+}
+
+#content ul li {
+    text-align: start;
 }
 
 section {
@@ -61,13 +65,13 @@ section {
     img {
         width: 80px;
     }
-    #titre {
+    #title {
         margin: 30px;
     }
     #liseret {
         display: none;
     }
-    #contenu {
+    #content {
         display: flex;
         flex-direction: column;
         margin-left: 30px;
