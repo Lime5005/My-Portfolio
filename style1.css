@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=EB+Garamond&family=Strait&display=swap');
+:root {
+    --primary-color: #FAD02C;
+    --secondary-color: #1b9999;
+    --background: #000C66;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+body {
+    height: 100vh;
+    min-height: -webkit-fill-available;
+    line-height: 1.5;
+    background-color: var(--background);
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+}
+
+.navigation-link {
+    border-bottom: 2px solid transparent;
+    width: 100vw;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #FAD02C;
+    font-weight: bold;
+    transition: 0.5s ease;
+    transform: translateY(-3px);
+}
+
+.main-container {
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+
+.m-heading {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 3em;
+}
+
+.img-paris {
+    height: 100vh;
+}
+
+h1.vision {
+    font-family: 'Courgette', cursive;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.image-container {
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 25px;
+    width: auto;
+}
+
+.anim {
+    width: 100%;
+    min-height: 300px;
+}
+
+.proj {
+    width: 100%;
+    min-height: 280px;
+    padding: 10px;
+    border-bottom: 8px solid var(--primary-color);
+}
+
+
+/* Contact Section */
+
+.fab {
+    font-size: 100px;
+    margin-right: 50px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.fab:hover {
+    color: var(--on-background);
+}
