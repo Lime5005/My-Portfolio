@@ -49,6 +49,21 @@ body {
     font-size: 3em;
 }
 
+#progressbar {
+    background-color: white;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#progressbar>div {
+    background-color: var(--background);
+    width: 40%;
+    /* Adjust with JavaScript */
+    height: 25px;
+    border-radius: 10px;
+}
+
 .img-paris {
     height: 100vh;
 }
@@ -93,4 +108,8 @@ h1.vision {
 
 .fab:hover {
     color: var(--on-background);
+}
+
+.fas {
+    color: var(--primary-color);
 }
