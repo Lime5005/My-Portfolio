@@ -50,7 +50,7 @@ body {
 }
 
 #progressbar {
-    background-color: white;
+    background-color: #22999999;
     border-radius: 13px;
     /* (height of inner div) / 2 + padding */
     padding: 3px;
